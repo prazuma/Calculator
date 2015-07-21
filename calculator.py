@@ -108,6 +108,5 @@ while True:
     print '> ',
     line = raw_input()
     tokens = tokenize(line)
-    print tokens
     answer = evaluate(tokens)
     print "answer = %d\n" % answer
